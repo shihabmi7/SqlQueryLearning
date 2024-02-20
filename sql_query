@@ -1,0 +1,6 @@
+SELECT product_name, model_year, brand_name, category_name
+  FROM [BikeStores].[production].[products] as p
+  Inner Join [BikeStores].[production].brands as b
+  on p.brand_id = b.brand_id
+  inner join [BikeStores].[production].categories as c
+  on p.category_id  = c.category_id
