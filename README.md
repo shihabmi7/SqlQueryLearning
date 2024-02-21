@@ -4,6 +4,19 @@ This DB schema is provided by www.sqlservertutorial.net for Learning MSSQL Serve
 
 I updated it & wrote an SQL query on it for personal interest.
 
+# Select
+
+Key word DISTINCT removes the duplicates
+```SQL
+SELECT DISTINCT
+    city
+FROM
+    sales.customers
+ORDER BY
+    city;
+```
+
+
 # Aggregate Function
 
 ```SQL
@@ -34,6 +47,24 @@ SELECT count(*) as row_count
   FROM [BikeStores].[sales].[order_items]
 
 ```
+
+The following example returns the city in California which has more than ten customers:
+
+```SQL 
+SELECT
+    city,
+    COUNT (*)
+FROM
+    sales.customers
+WHERE
+    state = 'CA'
+GROUP BY
+    city
+HAVING
+    COUNT (*) > 10
+ORDER BY
+    city;
+````
 
 # Join
 
