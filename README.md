@@ -2,7 +2,7 @@
 
 This DB schema is provided by www.sqlservertutorial.net for Learning MSSQL Server. 
 
-I updated it & wrote an SQL query on it for personal interest.
+This is for practicing common queries. 
 
 # Select
 
