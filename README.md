@@ -1,4 +1,4 @@
-# Sample Database schema & SQL Query for MS SQL Server Tutorial
+# Sample Database schema & SQL Query for MSSQL Server
 
 This DB schema is provided by www.sqlservertutorial.net for Learning MSSQL Server. 
 
